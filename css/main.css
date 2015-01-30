@@ -51,14 +51,19 @@ body {
 }
 .completed {
     text-decoration: line-through;
-    background: #000000;
+    background: #ffff00;
     display: block;
-    color: #ffffff;
+    color: red;
 }
-.box{
+.box {
     border: 1px solid gray;
     border-radius: 5px;
     padding: 20px;
     margin: 20px;
     height: 100%;
+}
+.active {
+    background: gray;
+    color: #ffffff;
+    padding: 0px 5px;
 }
